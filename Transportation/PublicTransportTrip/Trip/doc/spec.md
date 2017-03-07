@@ -66,7 +66,7 @@ This entity model a particular trip model, including all properties which can be
         - Optional
 
 ## Example
-```json
+```
 {
 	"id": "tripID",
     "weekdays": ["monday", "tuesday"],
