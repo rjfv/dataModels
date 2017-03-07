@@ -42,19 +42,19 @@ This entity model a particular trip model, including all properties which can be
         - Optional
 
     - ```agency```: Agency the trip belogs to.
-        - Attribute type: Reference to a [Agency](https://github.com/ftcardoso/dataModels/blob/public_transportation/Transportation/Trip/Agency/doc/spec.md) entity.
+        - Attribute type: Reference to a [Agency](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/Trip/Agency/doc/spec.md) entity.
         - Mandatory
 
     - ```route```: Route the trip belongs to.
-        - Attribute type: Reference to a [Route](https://github.com/ftcardoso/dataModels/blob/public_transportation/Transportation/Trip/Route/doc/spec.md)
+        - Attribute type: Reference to a [Route](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/Trip/Route/doc/spec.md)
         - Mandatory
 
     - ```stop_departure```: Stop where the trip start.
-        - Attribute type: Reference to a [Stop](https://github.com/ftcardoso/dataModels/blob/public_transportation/Transportation/Trip/Stop/doc/spec.md)
+        - Attribute type: Reference to a [Stop](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/Trip/Stop/doc/spec.md)
         - Mandatory
 
     - ```stop_arrival```: Stop where the trip finish.
-        - Attribute type: Reference to a [Stop](https://github.com/ftcardoso/dataModels/blob/public_transportation/Transportation/Trip/Stop/doc/spec.md)
+        - Attribute type: Reference to a [Stop](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/Trip/Stop/doc/spec.md)
         - Optional
 
     - ```departure_timestamp```: Timestamp which captures when the user started the trip. This value can also appear as a FIWARE [TimeInstant](https://github.com/telefonicaid/iotagent-node-lib/blob/develop/README.md#TimeInstant)
