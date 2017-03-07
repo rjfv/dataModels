@@ -58,11 +58,11 @@ This entity model a particular trip model, including all properties which can be
         - Optional
 
     - ```departure_timestamp```: Timestamp which captures when the user started the trip segment. This value can also appear as a FIWARE [TimeInstant](https://github.com/telefonicaid/iotagent-node-lib/blob/develop/README.md#TimeInstant)
-        - Attribute type: [Datetime](http://schema.org/DateTime) or ```ISO8601``` (legacy).
+        - Attribute type: [Time](http://schema.org/Time) or ```ISO8601``` (legacy).
         - Mandatory
 
     - ```arrival_timestamp```:	Timestamp which captures when the user finished the trip segment. This value can also appear as a FIWARE [TimeInstant](https://github.com/telefonicaid/iotagent-node-lib/blob/develop/README.md#TimeInstant)
-        - Attribute type: [Datetime](http://schema.org/DateTime) or ```ISO8601``` (legacy).
+        - Attribute type: [Time](http://schema.org/Time) or ```ISO8601``` (legacy).
         - Optional
 
 ## Example
@@ -94,8 +94,8 @@ This entity model a particular trip model, including all properties which can be
                 "name": "Estación Metro Puebla",
                 "location": [19.40738533642689,-99.08250689506531]
             },
-            "departure_timestamp": "2017-02-05T08:30:11.5Z",
-            "arrival_timestamp":"2017-02-05T08:50:30.8Z"
+            "departure_timestamp": "08:30:11Z",
+            "arrival_timestamp":"08:50:30Z"
         }
     ]
 }
