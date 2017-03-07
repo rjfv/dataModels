@@ -13,5 +13,5 @@ This entity model a particular trip model, including all properties which can be
 	- Mandatory
 
 - ```segments```: The segments that represent the trip. Each trip can have one or more segments and each one can have differente characteristics.
-	- Attribute type: List of [Segments]()
+	- Attribute type: List of [Segments](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportTrip/Segment/doc/spec.md)
 	- Mandatory
