@@ -10,7 +10,7 @@ This entity model a particular a public transport stop model, including all prop
 
 - ```code```: Number that uniquely identifies the stop for passengers.
 	- Attribute type: [Text](https://schema.org/Text) 
-	- Mandatory
+	- Optional
 
 - ```name```: Name given to this stop.
 	- Normative references: https://schema.org/name
