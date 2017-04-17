@@ -66,11 +66,11 @@ This entity model a particular public vehicle model, including all properties wh
 	- Mandatory
 
 - ```refPublicVehicleModel```: Public vehicle model.
-	- Attribute type: Reference to a [PublicVehicleModel]() entity.
+	- Attribute type: Reference to a [PublicVehicleModel](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportVehiclePositioning/PublicVehicleModel/doc/spec.md) entity.
 	- Optional
 
 - ```refTrip```: Specify the trip that this vehicle is performing.
-	- Attribute type: Reference to a [Trip]() entity.
+	- Attribute type: Reference to a [Trip](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportTrip/Trip/doc/spec.md) entity.
 	- Mandatory
 
 - ```dateModified```: Last update timestamp of this entity.
