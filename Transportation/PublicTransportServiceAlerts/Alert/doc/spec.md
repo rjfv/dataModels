@@ -66,33 +66,11 @@ This enity model a particular public transport service alert model, including al
 
 ```
 {
-    "id": "",
-    "header": "",
-    "description": "",
-    "refTimeRange": [
-        {
-            "id": "timeRangeID0",
-            "startDate": "2017-04-05T08:15:30+01:00",
-            "endDate": "2017-04-05T10:15:30+01:00"
-        },
-        {
-            "id": "timeRangeID1",
-            "startDate": "2017-04-07T08:15:30+01:00",
-            "endDate": "2017-04-05T10:15:30+01:00"
-        }
-    ],
-    "refEntity": [
-        {
-            "id": "entityID0",
-            "refAgency": "agencyID0",
-            "refRoute": "routeID001"
-        },
-        {
-            "id":"entityID1",
-            "refAgency": "agencyID0",
-            "refTrip": "tripID002"
-        }
-    ],
+    "id": "Alert0000",
+    "header": "Holiday",
+    "description": "Complete description of what will happen",
+    "refTimeRange": ["timeRangeID0"],
+    "refEntity": ["entityID0"],
     "cause": "Holiday",
     "effect": "Modified Service"
 }

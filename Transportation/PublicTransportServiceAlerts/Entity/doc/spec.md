@@ -9,7 +9,7 @@ This enity model a particular service alert entity model, including all properti
 
 - ```refAgency```: Spcecifies the agency that will be affected. This means that all the agency network will be affected.
 	- Attribute type: Reference to a [Agency](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportTrip/Agency/doc/spec.md)
-	- Mandatory only if no other type of entity is defined
+	- Mandatory
 
 - ```refRoute```: Specifies the particular route that will be affected.
 	- Attribute type: Reference to a [Route](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportTrip/Route/doc/spec.md)
@@ -35,4 +35,15 @@ This enity model a particular service alert entity model, including all properti
 - ```refStop```: Specifies the particular stop that will be affected
 	- Attribute type: Reference to [Stop](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportTrip/Stop/doc/spec.md)
 	- Mandatory only if no other type of entity is defined
+
+
+## Example
+
+```
+{
+    "id": "entityID0",
+    "refAgency": "agencyID0",
+    "refRoute": "routeID001"
+}
+```
 

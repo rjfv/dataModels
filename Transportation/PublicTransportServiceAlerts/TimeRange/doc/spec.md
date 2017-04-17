@@ -14,3 +14,13 @@ This enity model a particular service alert time range model, including all prop
 - ```endDate```: The specific date when the alert will end.
 	- Attribute type: [DateTime](http://schema.org/DateTime)
 	- Mandatory
+
+## Example
+
+```
+{
+    "id": "timeRangeID0",
+    "startDate": "2017-04-05T08:15:30+01:00",
+    "endDate": "2017-04-05T10:15:30+01:00"
+}
+```
