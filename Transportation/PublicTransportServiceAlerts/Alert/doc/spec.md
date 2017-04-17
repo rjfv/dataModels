@@ -69,7 +69,7 @@ This enity model a particular public transport service alert model, including al
     "id": "",
     "header": "",
     "description": "",
-    "time_range": [
+    "refTimeRange": [
         {
             "id": "timeRangeID0",
             "startDate": "2017-04-05T08:15:30+01:00",
@@ -81,7 +81,7 @@ This enity model a particular public transport service alert model, including al
             "endDate": "2017-04-05T10:15:30+01:00"
         }
     ],
-    "entity": [
+    "refEntity": [
         {
             "id": "entityID0",
             "refAgency": "agencyID0",
