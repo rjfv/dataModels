@@ -53,6 +53,14 @@ This enity model a particular public transport service alert model, including al
 		- ```Unknown effect```
 	- Mandatory
 
+- ```dateModified```: Last update timestamp of this entity.
+	- Attribute type: [DateTime](https://schema.org/DateTime)
+	- Optional
+
+- ```dateCretated```: Creation timestamp of this entity.
+	- Attribute type: [DateTime](https://schema.org/DateTime)
+    - Optional
+
 
 ## Example
 
