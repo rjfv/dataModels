@@ -58,34 +58,34 @@ This enity model a particular public transport service alert model, including al
 
 ```
 {
-"id": "",
-"header": "",
-"description": "",
-"time_range": [
-	{
-    	"id": "timeRangeID0",
-    	"startDate": "2017-04-05T08:15:30+01:00",
-        "endDate": "2017-04-05T10:15:30+01:00"
-    },
-    {
-    	"id": "timeRangeID1",
-        "startDate": "2017-04-07T08:15:30+01:00",
-        "endDate": "2017-04-05T10:15:30+01:00"
-    }
-],
-"entity": [
-	{
-    	"id": "entityID0",
-    	"refAgency": "agencyID0",
-        "refRoute": "routeID001"
-    },
-    {
-    	"id":"entityID1",
-        "refAgency": "agencyID0",
-        "refTrip": "tripID002"
-    }
-],
-"cause": "Holiday",
-"effect": "Modified Service"
+    "id": "",
+    "header": "",
+    "description": "",
+    "time_range": [
+        {
+            "id": "timeRangeID0",
+            "startDate": "2017-04-05T08:15:30+01:00",
+            "endDate": "2017-04-05T10:15:30+01:00"
+        },
+        {
+            "id": "timeRangeID1",
+            "startDate": "2017-04-07T08:15:30+01:00",
+            "endDate": "2017-04-05T10:15:30+01:00"
+        }
+    ],
+    "entity": [
+        {
+            "id": "entityID0",
+            "refAgency": "agencyID0",
+            "refRoute": "routeID001"
+        },
+        {
+            "id":"entityID1",
+            "refAgency": "agencyID0",
+            "refTrip": "tripID002"
+        }
+    ],
+    "cause": "Holiday",
+    "effect": "Modified Service"
 }
 ```
